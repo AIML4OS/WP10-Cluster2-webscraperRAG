@@ -3,7 +3,6 @@ project:
   execute-dir: project
   render: # Add HERE new chapters and new notebooks
     - index.qmd
-    - chapters/webscraping_pipeline.qmd
     - chapters/rag_pipeline.qmd
     - notebooks/notebook1.qmd
 
@@ -14,16 +13,14 @@ website:
   # - replace AIML4OS by the Github account/organization your repository is hosted by;
   # - replace AIML4OS-template-quarto-python by the name of your repository.
   # If your repo is on the AIML4OS organization, change only the name of the repo.
-  site-url: "https://AIML4OS.github.io/WP10-cluster2-webscraperRAG/"
-  repo-url: "https://github.com/AIML4OS/WP10-cluster2-webscraperRAG/"
+  site-url: "https://aiml4os.github.io/WP10-Cluster2-RAG/"
+  repo-url: "https://github.com/AIML4OS/WP10-cluster2-RAG/"
   repo-actions: [edit, source, issue]
   sidebar:
     search: true
     contents: # Add HERE new chapters (but not the notebooks)
       - href: index.qmd
         text: Introduction
-      - href: chapters/webscraping_pipeline.qmd
-        text: Webscraping pipeline
       - href: chapters/rag_pipeline.qmd
         text: RAG pipeline
 
